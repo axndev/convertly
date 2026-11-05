@@ -1,0 +1,9 @@
+{
+  "name": "Convertly",
+  "short_name": "Convertly",
+  "description": "Convert Anything. Completely Free. Browser-based file conversion with no uploads.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed"
+}

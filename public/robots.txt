@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the host below with your published domain before submitting.
+Sitemap: https://convertly.app/sitemap.xml
