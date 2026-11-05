@@ -143,9 +143,8 @@ export default function Header() {
       onMouseEnter={() => setOpen(key)}
       onClick={() => setOpen(open === key ? null : key)}
       aria-expanded={open === key}
-      className={`flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-        open === key ? 'bg-accent text-accent-foreground' : 'text-foreground/80 hover:bg-accent hover:text-accent-foreground'
-      }`}
+      className={`flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${open === key ? 'bg-accent text-accent-foreground' : 'text-foreground/80 hover:bg-accent hover:text-accent-foreground'
+        }`}
     >
       {label}
       <ChevronDown className={`h-3.5 w-3.5 transition-transform duration-200 ${open === key ? 'rotate-180' : ''}`} />
